@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageSitio"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/photo"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/textDescripcion"
+        android:layout_width="282dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@+id/imageSitio"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Descripcion" />
+
+
+    <TextView
+        android:id="@+id/textFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDescripcion"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/imageSitio"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:text="Fecha" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/photo" />
+
+
+</RelativeLayout>
