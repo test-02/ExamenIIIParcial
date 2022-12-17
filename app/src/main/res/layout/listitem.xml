@@ -42,7 +42,7 @@
         android:layout_marginLeft="2dp"
         android:layout_marginTop="6dp"
         android:layout_toRightOf="@+id/imageSitio"
-        android:textColor="#DD2C00"
+        android:textColor="#673AB7"
         android:textSize="16sp"
         android:textStyle="italic"
         tools:text="Fecha" />
